@@ -121,6 +121,7 @@ def GuessLoop():
             guessed_letters.append(guess)
             if guess in hidden_word:
                  print("You guessed correctly!")
+                    #retrieved from stackexchange site
                  for x in range(0, length_word): 
                     if hidden_word[x] == guess:
                         word[x] = guess
